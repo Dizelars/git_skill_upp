@@ -1,9 +1,8 @@
-.block__images {
-    background-color: black;
+.info {
+    background-color: aliceblue;
 }
 
-.block__img {
-    width: 200px;
-    height: 100px;
-    object-fit: cover;
+.text {
+    color: red;
+    font-weight: bold;
 }

@@ -2,6 +2,12 @@
     background-color: aliceblue;
 }
 
+.info__buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .text {
     color: red;
     font-weight: bold;

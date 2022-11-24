@@ -1,3 +1,9 @@
-.block_images {
+.block__images {
     background-color: black;
+}
+
+.block__img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
 }

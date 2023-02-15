@@ -115,3 +115,22 @@
 3. git config --global core.editor "название редактора кода"       (Добавить свой редактор кода в git, чтобы объединять коммиты)
 4. git rebase -i HEAD~4                          (Обьединить определенное количество(задается цифрой, ппосле знака тильда "~") коммитов в один, далее редактируем все необходимое в своем редакторе кода, который добавляли командой выше)
 5. git push --force                              (Перезаписать на удаленном репозитории то самое количество коммитов, которые мы поменяли в один. (ВНИМАНИЕ: Будьте аккуратны, так как данная команда перезаписывает коммиты, даже в том случае, если есть конфликты, она их не покажет, а просто пропустит))
+
+
+
+                                                                    ,...                   ,,
+            `7MM"""YMM  `7MN.   `7MF'`7MM"""Yb.                   .d' ""      .g8"""bgd    db    mm
+              MM    `7    MMN.    M    MM    `Yb.                 dM`       .dP'     `M          MM
+              MM   d      M YMb   M    MM     `Mb      ,pW"Wq.   mMMmm      dM'       `  `7MM  mmMMmm
+              MMmmMM      M  `MN. M    MM      MM     6W'   `Wb   MM        MM             MM    MM
+              MM   Y  ,   M   `MM.M    MM     ,MP     8M     M8   MM        MM.    `7MMF'  MM    MM
+              MM     ,M   M     YMM    MM    ,dP'     YA.   ,A9   MM        `Mb.     MM    MM    MM
+            .JMMmmmmMMM .JML.    YM  .JMMmmmdP'        `Ybmd9'  .JMML.        `"bmmmdPY  .JMML.  `Mbmo
+                                                                                               ,,
+                                                                                             `7MM
+                                                                                               MM
+             ,p6"bo   ,pW"Wq.  `7MMpMMMb.pMMMb.  `7MMpMMMb.pMMMb.   ,6"Yb.  `7MMpMMMb.    ,M""bMM  ,pP"Ybd
+            6M'  OO  6W'   `Wb   MM    MM    MM    MM    MM    MM  8)   MM    MM    MM  ,AP    MM  8I   `"
+            8M       8M     M8   MM    MM    MM    MM    MM    MM   ,pm9MM    MM    MM  8MI    MM  `YMMMa.
+            YM.    , YA.   ,A9   MM    MM    MM    MM    MM    MM  8M   MM    MM    MM  `Mb    MM  L.   I8
+             YMbmd'   `Ybmd9'  .JMML  JMML  JMML..JMML  JMML  JMML.`Moo9^Yo..JMML  JMML. `Wbmd"MML.M9mmmP'
